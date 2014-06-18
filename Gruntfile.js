@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     jshint: {
       all: ['Gruntfile.js', 'hello.js']
     }
-  });
+  })
  
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.registerTask('default', 'jshint');
